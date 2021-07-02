@@ -5,7 +5,7 @@ on: [push]
 env:
   ARTIFACT_NAME: myartifact
   
-job:
+jobs:
   main:
     runs-on: ubuntu-latest
     steps:
